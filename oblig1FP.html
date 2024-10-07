@@ -1,0 +1,197 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            @font-face {
+                font-family: "Roboto";
+                src: url(Roboto/Roboto-Black.ttf);
+            }
+            #logoDiv{
+                background-color: #141426;
+                height: 200px;
+                text-align: center;
+                color: white;
+            }
+
+            #logoDiv h1{
+                margin: 0;
+            }
+            footer{
+                background-color: #141426;
+                color: white;
+                text-align: center;
+                height: 100px;   
+                padding-top: 70px;
+            }
+            #outDiv{
+                background-color: #141426;
+                height: 200px;
+                color: white;
+                display: flex;
+                padding-left: 25%;
+                padding-right: 25%;
+                padding-bottom: 50px;
+            }
+            #innerTxt{
+                flex: 1;
+            }
+            #imgDiv{
+                flex: 1;
+
+            }
+            a{
+                display: inline-block;
+                padding-right: 5px;
+                color: white;
+                text-decoration: none;
+                padding-top: 20px;
+            }
+            h1{
+                padding-top: 40px;
+            }
+            h2{
+                padding: 0;
+                margin: 0;
+                font-size: 250%;
+            }
+            #h3{
+                text-align: center;
+                font-size: 200%;
+            }
+            body{
+                padding: 0;
+                margin: 0;
+                font-family: "Roboto";
+            }
+            img{
+                height: 200px;
+                margin-left: 100px;
+            }
+            button{
+                background-color: rgb(90, 90, 220);
+                color: white;
+                border-radius: 5px;
+            }
+            .square{
+                border: 4px solid #3782f5;
+                min-width: 20rem;
+                min-height: 10rem;
+                border-radius: 10px;
+            }
+            .outerSquare{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 50%;
+                margin: 10 auto;
+            }
+            #outerSquare2{
+                padding-top: 30px;
+            }
+            #greyBox {
+                background-color: #d3d3d3;
+                height: 220px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 50px auto;
+                border-radius: 10px;
+                padding: 20px;
+                position: relative;
+            }
+
+            #greyTxt {
+                font-size: 20px;
+                font-style: italic;
+                text-align: center;
+                color: #333;
+                max-width: 500px;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            }
+
+            #thor {
+                font-size: 16px;
+                margin-top: 20px;
+                align-self: flex-end;
+                margin-right: 37%;
+            }
+
+            #blueButton{
+                background-color: rgb(90, 90, 220);
+                margin: 40 auto;
+                width: 60%;
+                text-align: center;
+                padding: 20px;
+                justify-content: center;
+                border-radius: 10px;
+                color: white;
+                padding-top: 0;
+            }
+            #bButton{
+                border-color: white;
+                border-radius: 5px;
+                width: 100px;
+            }
+            #firstButton{
+                width: 80px;
+                height: 25px;
+            }
+            #outP{
+                width: 40%;
+            }
+
+            
+        </style>
+    </head>
+    <body>
+        <div id="logoDiv">
+            <h1>Header logo</h1>
+            <a href="oblig1FP.html">Home</a>
+            <a href="Oblig1SP.html">Posts</a>
+            <a href="Oblig1TP.html">Weather</a>                
+        </div>
+        <div id="outDiv">
+            <div id="innerTxt">
+                <h2>This website is awesome</h2>
+                <p>Lorem ipsum odor amet, consectetuer adipiscing elit. 
+                    Tempor cursus dignissim ac pharetra morbi aliquam ipsum ornare vel. 
+                    Nunc enim varius ultricies elit ullamcorper etiam habitasse maximus? 
+                    Aphasellus imperdiet aptent tempus aenean hac.</p>
+                <button id="firstButton">Sign up</button>
+            </div>
+            <div class="imgDiv">
+                <img src="bilde.jpg">
+            </div>
+        </div>
+        <h3 id="h3">Some random information</h3>
+        <div class="outerSquare" id="outerSquare1">
+            <div class="square"></div>
+            <p id="outP" style="padding-left: 20px;">Lorem ipsum odor amet, consectetuer adipiscing elit. 
+                Eu pellentesque vitae morbi dis, pretium nam suscipit eget. 
+                Potenti imperdiet fames malesuada auctor dui gravida sem enim hendrerit.</p>
+        </div>
+        <div class="outerSquare" id="outerSquare2">
+            <p id="outP">Lorem ipsum odor amet, consectetuer adipiscing elit.
+               Eu pellentesque vitae morbi dis, pretium nam suscipit eget. 
+               Potenti imperdiet fames malesuada auctor dui gravida sem enim hendrerit.</p>
+            <div class="square"></div>
+        </div>    
+        <div id="greyBox">
+            <p id="greyTxt">This is an inspiring quote, or a testimonial from a customer. Maybe its just filling up space, or maybe people will actually read it
+                Who knows? All i know is that it looks nice.</p>
+            <p id="thor">-Thor</p>
+        </div>
+        <div id="blueButton">
+            <h1 id="bH1">Call to action! It's time!</h1>
+            <p id="bP">Lorem ipsum odor amet, consectetuer adipiscing elit.</p>
+            <button id="bButton">Sign up</button>
+        </div>
+        <footer>Copyright ©</footer>
+    </body>
+
+
+
+
+</html>

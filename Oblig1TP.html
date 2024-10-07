@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+      @font-face {
+          font-family: "Roboto";
+          src: url(Roboto/Roboto-Black.ttf);
+      }
+
+      #logoDiv{
+          background-color: #141426;
+          height: 150px;
+          text-align: center;
+          color: white;   
+      }
+      #logoDiv h1{
+          margin: 0;
+          padding-top: 40px;
+      }
+      a{
+          display: inline-block;
+          padding-right: 5px;
+          color: white;
+          text-decoration: none;
+          padding-top: 20px;
+      }
+      footer{
+          background-color: #141426;
+          color: white;
+          text-align: center;
+          height: 100px;   
+          padding-top: 70px;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #e8eff4; 
+        font-family: "Roboto";
+      }
+      
+      .weather-section {
+        padding: 20px;
+        max-width: 1200px;
+        margin: auto;
+        background-color: #f5f5f5; 
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+      }
+
+      .weather-card {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        margin-bottom: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .weather-header {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #333;
+      }
+
+      .weather-info {
+        font-size: 18px;
+        color: #555;
+      }
+
+      .temp {
+        font-size: 52px;
+        font-weight: bold;
+        color: #1190d4;
+      }
+
+      .last-updated {
+        font-size: 14px;
+        color: #888;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+
+      <div id="logoDiv">
+          <h1>Header logo</h1>
+          <a href="oblig1FP.html">Home</a>
+          <a href="Oblig1SP.html">Posts</a>
+          <a href="Oblig1TP.html">Weather</a>
+      </div>
+
+      <section class="weather-section">
+          <h1>Real-Time Weather Updates</h1>
+          <div id="weather-container"></div>
+      </section>
+
+      <script src="script2.js"></script>
+
+      <footer>Copyright ©</footer>
+
+  </body>
+</html>
